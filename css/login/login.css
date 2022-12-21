@@ -1,0 +1,97 @@
+  #login_section {
+
+  }
+  .login_action {
+  background-color: var(--bluecolor);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  }
+  .log_center {
+  width: 50%;
+  margin: 0px auto;
+  }
+  .login_img {
+  width: 100%;
+  }
+  .login_first {
+  display: flex;
+  }
+  .login_here  {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  }
+  .login_here {
+  text-align: var(--center);
+  }
+  .logo {
+  width: 120px;
+  pointer-events: none;
+  }
+  .signup_status {
+  width: 55%;
+  padding: 20px;
+  margin: 10px auto;
+  border: 1px solid #E7E9EB;
+  border-radius: 6px;
+  }
+  .logo_header {
+  font: 30px/45px var(--drive_b);
+  margin: 0 0 15px;
+  text-align: var(--left);
+  color: var(--color);
+  }
+  .input_form {
+  text-align: var(--left);
+  }
+  .input_para {
+  margin: 0;
+  font: 13px/30px var(--drive_m);
+  color: var(--form_para);
+  }
+
+  .input_cloud {
+  color: #333;
+  width: 100%;
+  font: 14px/25px var(--drive_r);
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 1px solid #E7E9EB;
+  outline: none;
+  }
+  .submit{
+  background-color: var(--buttoncolor);
+  color: var(--white);
+  width: 100%;
+  border-radius: 12px;
+  outline: none;
+  font: 13px/30px var(--drive_m);
+  border: none;
+  padding: 6px 10px 8px;
+  transition: 1s;
+  }
+  .submit:hover,.submit:focus {
+  background: #622b8d;
+  transition: 1s;
+  }
+  #remindme {
+  outline: none;
+  }
+  .remindme {
+  position: relative;
+  top: -1px;
+  cursor: pointer;
+  }
+
+  /* Media query */
+  @media only screen and (max-width:767px) {
+  .login_first {
+  display: block;
+  }
+  .login_action {
+  height: auto;
+  }
+  }
