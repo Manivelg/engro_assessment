@@ -1,4 +1,4 @@
-# HTML5 Website
+# HTML5 Dashboard
 A simple yet eye-catching service based website build with the help of Bootstrap 5 framework.
 This project was build from scratch, it's meant to provide you with an idea of how to get well-versed with HTML5 for building speedy websites with less complications.
 
@@ -8,4 +8,6 @@ This project was build from scratch, it's meant to provide you with an idea of h
 - CSS3
 - jQuery
 - Javascript
-	  
+
+# Desktop View only
+A simple desktop view only. it does not support mobile view.
